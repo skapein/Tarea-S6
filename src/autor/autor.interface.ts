@@ -1,4 +1,4 @@
-export interface InterEmpleado {
+export interface InterAutor {
     id: string;
     nombre: string;
     nacionalidad: string;
