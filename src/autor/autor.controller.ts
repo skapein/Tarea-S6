@@ -9,7 +9,7 @@ import {
     UsePipes,
     ValidationPipe,
   } from '@nestjs/common';
-  import { AutorService } from './autor.service';
+  import { AutorService } from './autor.service.spec.ts';
   import { InterAutor } from './autor.interface';
   import { AutorDTO } from './autor.dto';
   @Controller('autor')
